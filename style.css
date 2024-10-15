@@ -219,6 +219,10 @@ span {
         height: auto;
     }
 
+    .main{
+        height:75vh;
+    }
+
     .cta-btn {
         font-size: 18px;
         width: 120px;
@@ -230,8 +234,10 @@ span {
     }
     .webproject{
         flex-direction: column;
-        padding: 10px;
+        padding: 2rem;
     }
+    .project{
+        padding: 0.5rem;
 }
 
 @media (max-width: 480px) {
@@ -263,10 +269,14 @@ span {
 
     .webproject {
         flex-direction: column;
-        padding: 10px;
+        padding: 2rem;
     }
 
     .main, .home, .about, .projects {
         padding: 1rem;
+    }
+
+    .main{
+        height:75vh;
     }
 }
