@@ -231,6 +231,7 @@ span {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding: 1rem;
     }
 
     .navbar ul {
@@ -256,5 +257,9 @@ span {
     .webproject {
         flex-direction: column;
         padding: 10px;
+    }
+
+    .main, .home, .about, .projects {
+        padding: 1rem;
     }
 }
