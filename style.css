@@ -205,10 +205,13 @@ span {
 @media (max-width: 768px) {
     .navbar {
         padding: 1rem 2rem;
+        flex-direction: column;
     }
 
     .navbar ul li {
         margin-right: 0.5rem;
+        flex-direction: column;
+        width: 100%;
     }
 
     .main, .home, .about, .projects {
@@ -224,6 +227,10 @@ span {
 
     .home h1, .about h1, .projhead {
         font-size: 2rem;
+    }
+    .webproject{
+        flex-direction: column;
+        padding: 10px;
     }
 }
 
