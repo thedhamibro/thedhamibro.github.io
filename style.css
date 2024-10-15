@@ -132,7 +132,6 @@ span {
     transition: box-shadow 0.3s, transform 0.3s;
 }
 
-
 .project {
     display: flex;
     justify-content: center;
@@ -183,6 +182,26 @@ span {
     }
 }
 
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 1rem 5rem;
+    }
+
+    .main, .home, .about, .projects {
+        padding: 2rem;
+    }
+
+    .cta-btn {
+        font-size: 20px;
+        width: 130px;
+        height: 45px;
+    }
+
+    .home h1, .about h1, .projhead {
+        font-size: 2.5rem;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar {
         padding: 1rem 2rem;
@@ -205,5 +224,37 @@ span {
 
     .home h1, .about h1, .projhead {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .home h1, .about h1, .projhead {
+        font-size: 1.5rem;
+    }
+
+    .webproject {
+        flex-direction: column;
+        padding: 10px;
     }
 }
