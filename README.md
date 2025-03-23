@@ -1,58 +1,30 @@
-# Sehajdeep Singh Dhami's Portfolio
+# Welcome to your project
 
-This is a personal portfolio website for Sehajdeep Singh Dhami, showcasing his skills, projects, and contact information.
+## Project info
 
-## Table of Contents
+**URL**: [Insert your project URL here]
 
-- [About](#about)
-- [Skills](#skills)
-- [Projects](#projects)
-- [Contact](#contact)
-- [Installation](#installation)
-- [Usage](#usage)
+## How can I edit this code?
 
-## About
+There are several ways of editing your application.
 
-This website provides an overview of Sehajdeep Singh Dhami's professional background, including his skills in web development and video editing. It also highlights his projects and provides a way to contact him.
+**Use your preferred IDE**
 
-## Skills
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
-The website showcases the following skills:
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- **Web Development**: HTML, CSS, JavaScript, Python
-- **Video Editing**: Adobe Premiere Pro, Adobe After Effects
-- **Graphic Designing**: Currently learning
+Follow these steps:
 
-## Projects
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-The website features several web development projects:
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-1. **Project 1**: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
-2. **Project 2**: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
-3. **Project 3**: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
-4. **Project 4**: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
+# Step 3: Install the necessary dependencies.
+npm i
 
-## Contact
-
-You can contact Sehajdeep Singh Dhami through the contact section on the website.
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/thedhamibro/thedhamibro.github.io
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd portfolio
-    ```
-
-## Usage
-
-Open `index.html` in your web browser to view the website.
-
-## License
-
-This project is licensed under the MIT License.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
