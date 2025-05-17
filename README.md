@@ -1,30 +1,37 @@
-# Welcome to your project
+# Todo
 
-## Project info
+A simple and lightweight Todo application built with just HTML, CSS, and JavaScript.  
+No frameworks or build tools required—just open the HTML file in your browser!
 
-**URL**: [Insert your project URL here]
+## Features
 
-## How can I edit this code?
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Responsive design for desktop and mobile
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use your preferred IDE**
+1. **Clone or download the repository:**
+    ```bash
+    git clone https://github.com/thedhamibro/todo.git
+    ```
+2. **Open `index.html` in your browser.**  
+   That’s it! No installation or dependencies needed.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
+## File Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```
+index.html      # Main HTML file
+style.css       # Stylesheet
+script.js       # JavaScript logic
+```
 
-Follow these steps:
+## Contributing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Feel free to fork the repo and submit pull requests with improvements!
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## License
 
-# Step 3: Install the necessary dependencies.
-npm i
+This project is licensed under the MIT License.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev

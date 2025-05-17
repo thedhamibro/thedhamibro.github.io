@@ -1,0 +1,319 @@
+body {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.container {
+    max-width: 480px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(60,60,60,0.10);
+    border: none;
+    position: relative;
+    text-align: center;
+}
+
+h1, #date-display {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#date-display {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color: #222;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    text-align: center;
+}
+#date-display b {
+    color: #222;
+    font-weight: 700;
+}
+#date-display .date-month {
+    color: #b0b4b8;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+@media (max-width: 600px) {
+    #date-display {
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+}
+
+#todo-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.7rem;
+    border-bottom: 2.5px solid #444;
+    padding-bottom: 0.4rem;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 0.6rem 0.5rem 0.6rem 0;
+    border: none;
+    background: transparent;
+    color: #444;
+    font-size: 1.08rem;
+    transition: border 0.2s;
+    outline: none;
+}
+#todo-input::placeholder {
+    color: #aaa;
+    font-size: 1.02rem;
+}
+
+#add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #444;
+    border: none;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    font-size: 1.7rem;
+    box-shadow: 0 2px 8px rgba(60,60,60,0.10);
+    margin-left: 0.2rem;
+    margin-right: 0.1rem;
+}
+#add-btn:hover {
+    background: #222;
+    transform: scale(1.08);
+}
+#add-btn .material-icons {
+    font-size: 1.7rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 12px;
+    margin-bottom: 1.1rem;
+    padding: 0.7rem 1rem 0.7rem 0.9rem;
+    box-shadow: 0 2px 8px rgba(60,60,60,0.04);
+    transition: box-shadow 0.2s, border 0.2s, background 0.2s;
+    position: relative;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInSlide 0.4s cubic-bezier(.4,0,.2,1);
+}
+#todo-list li:last-child {
+    margin-bottom: 0;
+}
+#todo-list li:hover {
+    box-shadow: 0 4px 16px rgba(60,60,60,0.10);
+    border: 1.5px solid #bbb;
+    background: #fafafa;
+}
+#todo-list li.removing {
+    opacity: 0;
+    transform: translateX(40px) scale(0.95);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.task-checkbox {
+    accent-color: #222;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-text {
+    flex: 1;
+    color: #222;
+    font-size: 1.08rem;
+    word-break: break-word;
+    transition: color 0.2s, text-decoration 0.2s;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    max-width: 100%;
+    text-align: left;
+}
+.task-text.completed {
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    padding: 0.2rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    color: #888;
+    transition: color 0.2s, background 0.2s, transform 0.15s;
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+.icon-btn:hover {
+    color: #222;
+    background: #ededed;
+    transform: scale(1.1);
+}
+.icon-btn:active, #add-btn:active {
+    transform: scale(0.92);
+}
+.rename-btn .material-icons {
+    color: #888;
+}
+.delete-btn .material-icons {
+    color: #bbb;
+}
+.delete-btn:hover .material-icons {
+    color: #d32f2f;
+}
+
+.task-edit-input {
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem;
+    border: 1.5px solid #bbb;
+    border-radius: 6px;
+    background: #f4f4f4;
+    color: #333;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 0.5rem;
+    box-shadow: 0 1px 4px rgba(60,60,60,0.04);
+    transition: border 0.2s, background 0.2s, box-shadow 0.2s, transform 0.2s;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    appearance: none;
+}
+.task-edit-input:focus {
+    border: 1.5px solid #888;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(60,60,60,0.08);
+    transform: scale(1.03);
+}
+
+/* Remaining todos and quote */
+#todo-footer {
+    margin-top: 2.2rem;
+    text-align: left;
+}
+#todo-footer .remaining {
+    font-weight: 600;
+    color: #222;
+    font-size: 1.02rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+#todo-footer .quote {
+    color: #888;
+    font-size: 0.97rem;
+    font-style: italic;
+    margin-top: 0.3rem;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 98vw;
+        padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+        border-radius: 12px;
+        margin: 20px 0;
+    }
+    #date-display {
+        font-size: 1.3rem;
+        margin-bottom: 0.7rem;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    #todo-list li {
+        padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+        font-size: 0.98rem;
+    }
+    #add-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 1.2rem;
+    }
+    #add-btn .material-icons {
+        font-size: 1.2rem;
+    }
+    #todo-input {
+        font-size: 0.98rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100vw;
+        padding: 0.7rem 0.2rem 1rem 0.2rem;
+        border-radius: 0;
+        margin: 0;
+    }
+    #date-display {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    #todo-list li {
+        padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+        font-size: 0.92rem;
+    }
+    #add-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+    }
+    #add-btn .material-icons {
+        font-size: 1rem;
+    }
+    #todo-input {
+        font-size: 0.92rem;
+    }
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
