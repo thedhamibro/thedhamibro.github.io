@@ -25,7 +25,7 @@ export default function HeroSection() {
 					<div className="font-mono">
 						<p className="text-green-500">$ whoami</p>
 						<h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Sehajdeep Singh Dhami</h1>
-						<p className="text-gray-400 mb-2">Senior Backend Engineer</p>
+						<p className="text-gray-400 mb-2">A student learning to code</p>
 						<p className="text-green-500">$ skills</p>
 						<div className="flex flex-wrap gap-2 mt-2">
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Javascript</span>
