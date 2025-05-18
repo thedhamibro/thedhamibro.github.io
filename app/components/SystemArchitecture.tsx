@@ -22,7 +22,7 @@ export default function SystemArchitecture() {
 								'Features responsive UI and drag-and-drop task management',
 							],
 							tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'JWT'],
-							link: 'thedhamibro.me/todo',
+							link: '/todo',
 						},
 						{
 							title: 'Platformer Game',
