@@ -14,7 +14,7 @@ export default function SystemArchitecture() {
 					{[
 						{
 							title: 'Todo App',
-							description: 'A full-stack todo application with user authentication, real-time updates, and persistent storage.',
+							description: 'A full-stack todo application with user authentication(WIP), real-time updates, and persistent storage.',
 							details: [
 								'Built with React, Node.js, and MongoDB',
 								'Implements JWT-based authentication and user sessions',
@@ -22,7 +22,7 @@ export default function SystemArchitecture() {
 								'Features responsive UI and drag-and-drop task management',
 							],
 							tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'JWT'],
-							link: 'https://github.com/thedhamibro/todo',
+							link: 'thedhamibro.me/todo',
 						},
 						{
 							title: 'Platformer Game',
@@ -34,7 +34,7 @@ export default function SystemArchitecture() {
 								'Optimized for smooth gameplay and cross-platform support',
 							],
 							tech: ['Godot', 'GDScript', 'Game Physics', 'Level Editor'],
-							link: 'https://github.com/harshG998/platformerbase--main',
+							link: 'https://thedhamibro.itch.io/medieval-souls',
 						},
 						{
 							title: 'AI Chatbot Assistant (WIP)',
