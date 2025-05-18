@@ -13,9 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Sehajdeep Singh Dhami - Backend Developer',
-	description:
-		'Im a student developer with a growing passion for building web apps, games, and messing around with code. Currently comfortable with frontend tech, exploring backend and game development, and working on getting better every day.',
+	title: 'Sehaj Dhami | Web Developer',
+	description: "Check out Dhami's web projects, skills, and development.",
 	keywords: [
 		'Backend Developer',
 		'Software Engineer',
@@ -36,16 +35,16 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Sehajdeep Singh Dhami' }],
 	creator: 'Sehajdeep Singh Dhwami',
 	openGraph: {
-		title: 'Sehajdeep Singh Dhami - Backend Developer Portfolio',
-		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
+		title: 'Sehaj Dhami | Web Developer',
+		description: "Check out Dhami's web projects, skills, and development.",
 		url: 'https://thedhamibro.me',
-		siteName: 'Sehajdeep Singh Dhami - Portfolio',
+		siteName: 'Sehaj Dhami | Web Developer',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Sehajdeep Singh Dhami - Backend Developer Portfolio',
+				alt: 'Sehaj Dhami | Web Developer',
 			},
 		],
 		locale: 'en_US',
@@ -53,8 +52,8 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Sehajdeep Singh Dhami - Backend Developer',
-		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
+		title: 'Sehaj Dhami | Web Developer',
+		description: "Check out Dhami's web projects, skills, and development.",
 		creator: '@thedhamibro',
 		images: ['/og-image.jpg'],
 	},
