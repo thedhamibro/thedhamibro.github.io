@@ -1,14 +1,13 @@
-# 👋 Hey, I'm Dhami
-
+# 👋 Hey, I'm Sehajdeep Singh Dhami 
 I'm a student developer with a growing passion for building web apps, games, and messing around with code.  
 Currently comfortable with frontend tech, exploring backend and game development, and working on getting better every damn day.
 
 ---
 
-## 🚀 Projects
+## 🚀 Projects(WIP)
 
 - [**Platformer Base**](https://github.com/harshG998/platformerbase--main)  
-  A basic 2D Unity platformer base to kickstart side-scrollers and game ideas.
+  A basic 2D Platformer, RPG style game, still WIP.
 
 - [**Todo App**](https://github.com/thedhamibro/todo)  
   Simple task manager built using vanilla HTML, CSS, and JavaScript.
@@ -54,9 +53,8 @@ Using it for coding, tinkering, and occasionally breaking stuff on purpose.
 
 - **GitHub**: [@thedhamibro](https://github.com/thedhamibro)
 - **Email**: dhamiputtar2009@gmail.com
-- **Discord**: `sehajdhami`
+- **Discord**: [@sehajdhami](https://discord.gg/eKHq98gM)
 - **Telegram**: [@sehajdhami](https://t.me/sehajdhami)
-- **LinkedIn**: (Add the link once you find it)
 
 ---
 
