@@ -9,7 +9,7 @@ Currently comfortable with frontend tech, exploring backend and game development
 - [**Platformer Base**](https://github.com/harshG998/platformerbase--main)  
   A basic 2D Platformer, RPG style game, still WIP.
 
-- [**Todo App**](https://github.com/thedhamibro/todo)  
+- [**Todo App**](thedhamibro.me/todo)  
   Simple task manager built using vanilla HTML, CSS, and JavaScript.
 
 ---
