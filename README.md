@@ -1,37 +1,63 @@
-# Todo
+# 👋 Hey, I'm Dhami
 
-A simple and lightweight Todo application built with just HTML, CSS, and JavaScript.  
-No frameworks or build tools required—just open the HTML file in your browser!
+I'm a student developer with a growing passion for building web apps, games, and messing around with code.  
+Currently comfortable with frontend tech, exploring backend and game development, and working on getting better every damn day.
 
-## Features
+---
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
-- Responsive design for desktop and mobile
+## 🚀 Projects
 
-## Getting Started
+- [**Platformer Base**](https://github.com/harshG998/platformerbase--main)  
+  A basic 2D Unity platformer base to kickstart side-scrollers and game ideas.
 
-1. **Clone or download the repository:**
-    ```bash
-    git clone https://github.com/thedhamibro/todo.git
-    ```
-2. **Open `index.html` in your browser.**  
-   That’s it! No installation or dependencies needed.
+- [**Todo App**](https://github.com/thedhamibro/todo)  
+  Simple task manager built using vanilla HTML, CSS, and JavaScript.
 
-## File Structure
+---
 
-```
-index.html      # Main HTML file
-style.css       # Stylesheet
-script.js       # JavaScript logic
-```
+## 🧠 Skills
 
-## Contributing
+**Good at:**  
+`HTML` `CSS` `JavaScript` `Python` `GDScript` `Linux`
 
-Feel free to fork the repo and submit pull requests with improvements!
+**Learning:**  
+`React` `Java`
 
-## License
+---
 
-This project is licensed under the MIT License.
+## 🐧 Linux
 
+Daily driving Linux and getting comfy with the terminal.  
+Using it for coding, tinkering, and occasionally breaking stuff on purpose.
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=thedhamibro&show_icons=true&theme=radical" alt="GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=thedhamibro&theme=radical" alt="GitHub streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thedhamibro&layout=compact&theme=radical" alt="Top languages" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=thedhamibro&theme=dracula&column=7" alt="Trophies" />
+</p>
+
+---
+
+## 📫 Contact
+
+- **GitHub**: [@thedhamibro](https://github.com/thedhamibro)
+- **Email**: dhamiputtar2009@gmail.com
+- **Discord**: `sehajdhami`
+- **Telegram**: [@sehajdhami](https://t.me/sehajdhami)
+- **LinkedIn**: (Add the link once you find it)
+
+---
+
+> "Just building and learning. One repo at a time."
