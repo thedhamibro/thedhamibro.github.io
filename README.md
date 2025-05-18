@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Sehajdeep Singh Dhami 
 I'm a student developer with a growing passion for building web apps, games, and messing around with code.  
-Currently comfortable with frontend tech, exploring backend and game development, and working on getting better every damn day.
+Currently comfortable with frontend tech, exploring backend and game development, and working on getting better every day.
 
 ---
 
