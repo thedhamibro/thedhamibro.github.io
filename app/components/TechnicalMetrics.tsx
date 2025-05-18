@@ -7,7 +7,7 @@ export default function TechnicalMetrics() {
 		<section className="py-20 px-4 bg-gray-900/50">
 			<div className="max-w-6xl mx-auto">
 				<p className="text-center text-gray-400 mb-4">
-					I am just a beginner developer and haven't made major impacts yet, but here are a few things I have done:
+					I am just a beginner developer and haven&apos;t made major impacts yet, but here are a few things I have done:
 				</p>
 				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-12 text-center">
 					Impact & Achievements
