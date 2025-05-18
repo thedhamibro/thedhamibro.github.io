@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 		'Backend Architecture',
 	],
 	authors: [{ name: 'Sehajdeep Singh Dhami' }],
-	creator: 'Sehajdeep Singh Dhwami',
+	creator: 'Sehajdeep Singh Dhami',
 	openGraph: {
 		title: 'Sehaj Dhami | Web Developer',
 		description: "Check out Dhami's web projects, skills, and development.",
