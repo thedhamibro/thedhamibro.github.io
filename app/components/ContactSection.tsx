@@ -64,6 +64,7 @@ export default function ContactSection() {
 									</div>
 									<div>
 										<p className="font-semibold text-gray-200">Discord</p>
+										<p className="text-sm text-gray-400">@sehajdhami</p>
 									</div>
 								</motion.a>
 								<motion.a
